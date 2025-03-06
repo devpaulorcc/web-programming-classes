@@ -45,4 +45,22 @@ main > section > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+main > section > div > img {
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+main > section > div > a {
+    background-color: #007dff;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 64px;
+    border-radius: 12px;
 }
