@@ -72,9 +72,33 @@ main > #empresa > div > a {
 #quem-somos {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 24px;
 }
 
 #quem-somos > div {
     width: 30%;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#grupo-produtos {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.produto {
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.produto > p {
+    max-width: 200px;
 }
